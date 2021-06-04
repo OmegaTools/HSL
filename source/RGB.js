@@ -40,14 +40,33 @@ function toHSL(input){
   */
 
   function calcHue(){
+
     if(chroma === 0)
       return 0;
 
+    let hue;
+
     switch(maximum){
-    case red   : return ((green - blue) / chroma + 0) * 60;
-    case green : return ((blue - red)   / chroma + 1) * 60;
-    case blue  : return ((red - green)  / chroma + 2) * 60;
+    case red   : hue = (green - blue); break;
+    case green : hue = (blue - red);   break;
+    case blue  : hue = (red - green);  break;
     }
+
+    hue /= chroma;
+
+    switch(maximum){
+    case red   : hue += 0; break;
+    case green : hue += 2; break;
+    case blue  : hue += 4; break;
+    }
+
+    hue *= 60;
+    hue %= 360;
+
+    if(hue < 0)
+      hue += 360;
+
+    return hue;
   }
 
 
