@@ -18,7 +18,7 @@
 
 ## RGB ( A )
 
-All channels are numbers in the range of  `0 - 255`
+All channels are integers in the range of  `0 - 255`
 
 <br>
 
