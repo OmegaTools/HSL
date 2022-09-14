@@ -1,9 +1,14 @@
 
 
+import { fromCMYK , fromRGB } from 'HSL'
 import { assertEquals } from 'Assert'
-import { fromRGB } from 'HSL'
 
 
-export function assertRGBIsHSL(rgb,hsl){
-    assertEquals(fromRGB(rgb),hsl);
+export function assertRGBIsHSL(input,output){
+    assertEquals(fromRGB(input),output);
+}
+
+
+export function assertCMYKIsHSL(input,output){
+    assertEquals(fromCMYK(input),output);
 }

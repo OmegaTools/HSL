@@ -1,8 +1,23 @@
 
+<br>
+
+<div align = center>
+
 # Usage
 
 *How to this module.*
 
+<br>
+<br>
+
+
+
+[![Button RGB]][RGB]   
+[![Button CMYK]][CMYK]
+
+</div>
+
+<br>
 <br>
 
 ## Import
@@ -26,48 +41,15 @@ import * as HSL from 'https://deno.land/x/hsl/mod.ts'
 ```
 
 <br>
-<br>
 
-## RGB
 
-*Convert RGB colors to HSL.*
+<!----------------------------------------------------------------------------->
 
-```JavaScript
-import { fromRGB } from 'HSL'
-```
+[CMYK]: Sources/CMYK.md
+[RGB]: Sources/RGB.md
 
-<br>
 
-### As Parameter
+<!---------------------------------[ Buttons ]--------------------------------->
 
-*Supply the channels directly.*
-
-```JavaScript
-const hsl = fromRGB( R , G , B );
-```
-
-<br>
-
-### As Array
-
-*Pass the channels as an array.*
-
-```JavaScript
-const hsl = fromRGB([ R , G , B ]);
-```
-
-<br>
-
-### With Alpha
-
-*Optionally include an Alpha channel.*
-
-```JavaScript
-const hsla = fromRGB([ R , G , B , A ]);
-```
-
-```JavaScript
-const hsla = fromRGB( R , G , B , A );
-```
-
-<br>
+[Button CMYK]: https://img.shields.io/badge/CMYK-04ACE6?style=for-the-badge
+[Button RGB]: https://img.shields.io/badge/RGB-37814A?style=for-the-badge

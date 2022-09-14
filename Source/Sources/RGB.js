@@ -76,15 +76,15 @@ function toHSL(input){
 
 export default function fromRGB(colors){
 
-  if(colors.length === 1 || (typeof colors[2] !== 'number'))
-    colors = colors[0];
+    if(colors.length === 1 || (typeof colors[2] !== 'number'))
+        colors = colors[0];
 
-  const hsl = toHSL(colors);
+    const hsl = toHSL(colors);
 
-  const alpha = colors[3];
+    const alpha = colors[3];
 
-  if(alpha)
-    hsl.push(alpha);
+    if(alpha)
+        hsl.push(alpha);
 
-  return hsl;
+    return hsl;
 }
