@@ -1,24 +1,30 @@
+
 # Supported Conversions
 
-## RGB
+<br>
 
-- Red: `0 - 255`
-- Green: `0 - 255`
-- Blue: `0 - 255`
+## Output
 
-<table style='text-align:center'>
-  <tr>
-    <td></td>
-    <td>Alpha</td>
-  </tr>
-  <tr>
-    <td>Array</td>
-    <td>[ R , G , B , A ]</td>
-    <td>[ R , G , B ]</td>
-  </tr>
-  <tr>
-    <td>Values</td>
-    <td> R , G , B , A </td>
-    <td> R , G , B </td>
-  </tr>
-</table>
+*The HSL(A) output is within the following ranges.*
+
+<br>
+
+| Hue | Saturation | Lightness | Alpha |
+|:---:|:----------:|:---------:|:-----:|
+| `0 - 360` | `0 - 100` | `0 - 100` | `0 - 255`
+
+<br>
+<br>
+
+## RGB ( A )
+
+All channels are numbers in the range of  `0 - 255`
+
+<br>
+
+|   | RGB | RGBA |
+|:-:|:---:|:----:|
+| **Array**     | ( [ R , G , B ] ) | ( [ R , G , B , A ] )
+| **Parameter** | ( R , G , B ) | ( R , G , B , A )
+
+<br>

@@ -1,43 +1,73 @@
-# How to Use
 
+# Usage
 
+*How to this module.*
+
+<br>
+
+## Import
+
+```JavaScript
+import * as HSL from 'https://deno.land/x/hsl/mod.ts'
+```
+
+<br>
+
+### ImportMap
+
+*Add the module to your **ImportMap** for easier importing.*
+
+```JSON
+{
+    "imports" : {
+        "HSL" : "https://deno.land/x/hsl/mod.ts"
+    }
+}
+```
+
+<br>
+<br>
 
 ## RGB
 
-```js
+*Convert RGB colors to HSL.*
 
-  const { rgbToHSL } = require('to-hls');
-
+```JavaScript
+import { fromRGB } from 'HSL'
 ```
 
-###### Alpha Support
+<br>
 
-```js
+### As Parameter
 
-  const [ H , S , L , A ] = rgbToHSL(50,100,200,255);
-  const [  H  , S ,  L  ] = rgbToHSL(255,0,150);
+*Supply the channels directly.*
 
+```JavaScript
+const hsl = fromRGB( R , G , B );
 ```
 
-###### Pass an Array
+<br>
 
-```js
+### As Array
 
-  const hsl = rgbToHSL([ 45 , 100 , 20 ]);
+*Pass the channels as an array.*
 
+```JavaScript
+const hsl = fromRGB([ R , G , B ]);
 ```
 
-###### Use with `.map()`
+<br>
 
-```js
+### With Alpha
 
-  const rgbColors = [
-    [ 40 ,  60  , 130 ],
-    [ 120 , 50 ,  230 , 200 ]
-  ]
+*Optionally include an Alpha channel.*
 
-  rgbColors
-  .map(rgbToHSL)
-  .forEach((hsl) => console.log(hsl));
-
+```JavaScript
+const hsla = fromRGB([ R , G , B , A ]);
 ```
+
+```JavaScript
+const hsla = fromRGB( R , G , B , A );
+```
+
+<br>
