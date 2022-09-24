@@ -23,16 +23,18 @@
 [![Button Usage]][Usage]   
 [![Button Conversions]][Conversions]
 
-</div>
-
 <br>
 <br>
 
 ## Examples
 
+<br>
+
 ```JavaScript
 import * as HSL from 'https://deno.land/x/hsl/mod.ts';
 ```
+
+</div>
 
 <br>
 
