@@ -30,6 +30,23 @@ All channels are integers in the range of  `0 - 255`
 <br>
 <br>
 
+## Hex ( + Alpha )
+
+All channels are integers in the range of  `0 - FF`
+
+<br>
+
+|   | Hex | Hex (Alpha) |
+|:-:|:---:|:-----------:|
+| **Single** | `#RGB`    | `#RGBA`
+| **Double** | `#RRGGBB` | `#RRGGBBAA`
+
+*`#`  is optional.*
+
+<br>
+<br>
+
+
 ## CMYK ( A )
 
 All channels are decimals of  `0 - 100`  <br>

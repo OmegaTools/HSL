@@ -11,7 +11,8 @@
 <br>
 
 [![Button RGB]][RGB]   
-[![Button CMYK]][CMYK]
+[![Button CMYK]][CMYK]   
+[![Button Hex]][Hex]
 
 </div>
 
@@ -47,9 +48,11 @@ import * as HSL from 'https://deno.land/x/hsl/mod.ts'
 
 [CMYK]: Sources/CMYK.md
 [RGB]: Sources/RGB.md
+[Hex]: Sources/Hex.md
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
 
 [Button CMYK]: https://img.shields.io/badge/CMYK-04ACE6?style=for-the-badge
 [Button RGB]: https://img.shields.io/badge/RGB-37814A?style=for-the-badge
+[Button Hex]: https://img.shields.io/badge/Hex-EF2D5E?style=for-the-badge
