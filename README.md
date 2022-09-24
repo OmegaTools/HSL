@@ -50,6 +50,18 @@ console.log(hsl); // [ 0 , 100 , 50 ]
 
 <br>
 
+### Hex
+
+```JavaScript
+const hex = '#0000FF'; // Blue
+
+const hsl = HSL.fromHex(hex);
+
+console.log(hsl); // [ 240 , 100 , 50 ]
+```
+
+<br>
+
 ### CMYK
 
 ```JavaScript
