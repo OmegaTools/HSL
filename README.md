@@ -28,16 +28,34 @@
 <br>
 <br>
 
-## Example
+## Examples
 
 ```JavaScript
 import * as HSL from 'https://deno.land/x/hsl/mod.ts';
+```
 
+<br>
+
+### RGB
+
+```JavaScript
 const rgb = [ 255 , 0 , 0 ]; // Red
 
 const hsl = HSL.fromRGB(rgb);
 
 console.log(hsl); // [ 0 , 100 , 50 ]
+```
+
+<br>
+
+### CMYK
+
+```JavaScript
+const cmyk = [ 100 , 0 , 100 , 0 ]; // Green
+
+const hsl = HSL.fromCMYK(cmyk);
+
+console.log(hsl); // [ 120 , 100 , 50 ]
 ```
 
 <br>
