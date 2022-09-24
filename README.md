@@ -3,6 +3,11 @@
 
 <div align = center>
 
+[![Badge Stars]][#]
+
+<br>
+<br>
+
 <img
     src = 'https://avatars.githubusercontent.com/u/84190317?s=200&v=4'
     width = 120
@@ -42,11 +47,13 @@ console.log(hsl); // [ 0 , 100 , 50 ]
 [Conversions]: Documentation/Conversions.md
 [License]: LICENSE
 [Usage]: Documentation/Usage.md
+[#]: #
 
 
 <!---------------------------------[ Badges ]---------------------------------->
 
 [Badge License]: https://img.shields.io/badge/License-AGPL3-015d93.svg?style=for-the-badge&labelColor=blue
+[Badge Stars]: https://img.shields.io/github/stars/OmegaTools/HSL?style=for-the-badge&logoColor=white&logo=Trustpilot&labelColor=FF66AA&color=cf538b
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
