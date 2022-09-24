@@ -3,7 +3,8 @@
 
 <div align = center>
 
-[![Badge Stars]][#]
+[![Badge Stars]][#]   
+[![Badge Deno]][Deno]
 
 <br>
 <br>
@@ -47,6 +48,7 @@ console.log(hsl); // [ 0 , 100 , 50 ]
 [Conversions]: Documentation/Conversions.md
 [License]: LICENSE
 [Usage]: Documentation/Usage.md
+[Deno]: https://deno.land/x/hsl
 [#]: #
 
 
@@ -54,6 +56,7 @@ console.log(hsl); // [ 0 , 100 , 50 ]
 
 [Badge License]: https://img.shields.io/badge/License-AGPL3-015d93.svg?style=for-the-badge&labelColor=blue
 [Badge Stars]: https://img.shields.io/github/stars/OmegaTools/HSL?style=for-the-badge&logoColor=white&logo=Trustpilot&labelColor=FF66AA&color=cf538b
+[Badge Deno]: https://img.shields.io/badge/-Deno-58a341?style=for-the-badge&logoColor=white&logo=Deno&labelColor=64bc4b
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
