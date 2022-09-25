@@ -5,7 +5,7 @@
 
 # Usage
 
-*How to this module.*
+*How to use this module.*
 
 <br>
 <br>
