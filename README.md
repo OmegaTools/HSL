@@ -10,7 +10,7 @@
 <br>
 
 <img
-    src = 'https://avatars.githubusercontent.com/u/84190317?s=200&v=4'
+    src = 'Assets/Logo.png'
     width = 120
 />
 
