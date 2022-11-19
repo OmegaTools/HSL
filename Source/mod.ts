@@ -9,12 +9,12 @@ import Hex from './Sources/Hex.js'
  *  
  *  Alpha channel can be included and won't be altered.
  *
- *  @param color Either ( R , G , B ) or ([ R , G , B ])
+ *  @param color ([ R , G , B ])
  *  @return A HSL(A) color array 
  */
 
 export function fromRGB ( 
-    ... color : number [] | number[][] 
+    color : number []
 ) : number [] {
     return RGB( color ) as number [];
 }
@@ -41,12 +41,12 @@ export function fromHex (
  *  
  *  Alpha channel can be included and won't be altered.
  *
- *  @param color Either ( C , M , Y , B ) or ([ R , G , B ])
+ *  @param color ([ R , G , B ])
  *  @return A HSL(A) color array 
  */
 
 export function fromCMYK (
-    ... color : number [] | number[][] 
+    color : number []
 ) : number [] {
     return CMYK( color ) as number [];
 }

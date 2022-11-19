@@ -9,16 +9,6 @@ import { fromCMYK } from 'HSL'
 
 <br>
 
-## Parameter
-
-*Supply the channels directly.*
-
-```JavaScript
-const cmyk = fromCMYK( C , M , Y , K );
-```
-
-<br>
-
 ## Array
 
 *Pass the channels as an array.*
@@ -35,10 +25,6 @@ const cmyk = fromCMYK([ C , M , Y , K ]);
 
 ```JavaScript
 const cmyka = fromCMYK([ C , M , Y , K , A ]);
-```
-
-```JavaScript
-const cmyka = fromCMYK( C , M , Y , K , A );
 ```
 
 <br>

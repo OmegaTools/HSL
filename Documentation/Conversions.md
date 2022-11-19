@@ -25,7 +25,6 @@ All channels are integers in the range of  `0 - 255`
 |   | RGB | RGBA |
 |:-:|:---:|:----:|
 | **Array**     | ( [ R , G , B ] ) | ( [ R , G , B , A ] )
-| **Parameter** | ( R , G , B ) | ( R , G , B , A )
 
 <br>
 <br>
@@ -57,6 +56,5 @@ except for the alpha channel  `0 - 255`
 |   | CMYK | CMYKA |
 |:-:|:----:|:-----:|
 | **Array**     | ( [ C , M , Y , K ] ) | ( [ C , M , Y , K , A ] )
-| **Parameter** | ( C , M , Y , K ) | ( C , M , Y , K , A )
 
 <br>
