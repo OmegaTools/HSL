@@ -1,12 +1,13 @@
 
-import rgbFrom from 'https://deno.land/x/rgb@1.0.0/Sources/Hex.js'
+import { toRGB } from '../Imports.js'
 import fromRGB from './RGB.js'
 
 
-/*
- *  (#)RRGGBB(AA) or (#)RGB(A) -> [ H , S , L , (A) ]
+/**
+ *  Input : (#)RRGGBB(AA) or (#)RGB(A)
+ *  Output : [ H , S , L , (A) ] or null
  */
 
 export default function fromHex(hex){
-    return fromRGB(rgbFrom(hex));
+    return fromRGB(toRGB(hex));
 }
