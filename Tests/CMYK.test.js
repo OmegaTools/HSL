@@ -1,10 +1,8 @@
 
 import { assertCMYKIsHSL } from 'AssertColor'
 
-const { test } = Deno;
 
-
-test('CMYK Array Conversion',() => {
+Deno.test('CMYK Array Conversion',() => {
     
     //  Black
     

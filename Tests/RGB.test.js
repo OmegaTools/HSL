@@ -1,10 +1,8 @@
 
 import { assertRGBIsHSL } from 'AssertColor'
 
-const { test } = Deno;
 
-
-test('RGB Array Conversion',() => {
+Deno.test('RGB Array Conversion',() => {
     
     //  Black
     
